@@ -1,0 +1,1 @@
+# Using_SIMCLR_and_BYOL_self-supervised_models_for_Tomato-Disease_Prediction
