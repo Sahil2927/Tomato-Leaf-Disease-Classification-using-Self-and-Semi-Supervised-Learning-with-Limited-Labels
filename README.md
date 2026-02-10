@@ -25,7 +25,7 @@ The primary motivation is to demonstrate how **label-efficient learning paradigm
 ├── README.md
 
 
-### 📓 Notebooks
+### Notebooks
 - **`self_supervised_comparison.ipynb`**
   - Supervised baseline
   - SimCLR pretraining + fine-tuning
@@ -127,6 +127,6 @@ Even with only **10% labeled data**, modern label-efficient learning methods ach
 
 ---
 
-## 📜 License
+## License
 
 This project is for academic and educational purposes.
