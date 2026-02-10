@@ -38,7 +38,7 @@ The primary motivation is to demonstrate how **label-efficient learning paradigm
 
 ---
 
-## 🧠 Dataset Details
+## Dataset Details
 
 - **Dataset:** PlantVillage (Tomato subset only)
 - **Number of classes:** 10
@@ -61,7 +61,7 @@ The primary motivation is to demonstrate how **label-efficient learning paradigm
 
 ---
 
-## 🧪 Experimental Setup
+## Experimental Setup
 
 - **Backbone:** ResNet-18
 - **Image size:** 224 × 224
@@ -75,7 +75,7 @@ The primary motivation is to demonstrate how **label-efficient learning paradigm
 
 ---
 
-## 📊 Results Summary (10% Labeled Data)
+## Results Summary (10% Labeled Data)
 
 | Method | Learning Paradigm | Validation Accuracy |
 |------|------------------|---------------------|
@@ -87,7 +87,7 @@ The primary motivation is to demonstrate how **label-efficient learning paradigm
 
 ---
 
-## 🔍 Key Observations
+## Key Observations
 
 - Supervised learning **performs poorly** with limited labeled data.
 - Self-Supervised learning (SimCLR, BYOL) **learns strong representations** without labels.
@@ -98,7 +98,7 @@ The primary motivation is to demonstrate how **label-efficient learning paradigm
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Label percentage experiments (1%–50%) were **not conducted** due to GPU constraints.
 - FixMatch and MixMatch were trained **without SSL initialization** in the semi-supervised notebook.
@@ -108,7 +108,7 @@ These limitations are intentional and documented.
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 This project clearly demonstrates that:
 
@@ -118,7 +118,7 @@ Even with only **10% labeled data**, modern label-efficient learning methods ach
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - Label percentage experiments (1%–50%)
 - SSL-initialized FixMatch / MixMatch
