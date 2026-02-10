@@ -1,4 +1,4 @@
-# 🌱 Tomato Leaf Disease Classification using Self-Supervised and Semi-Supervised Learning
+# Tomato Leaf Disease Classification using Self-Supervised and Semi-Supervised Learning
 
 This project presents a **comparative study of Supervised, Self-Supervised, and Semi-Supervised learning methods** for **tomato leaf disease classification** under **limited labeled data** settings.
 
@@ -6,20 +6,20 @@ The primary motivation is to demonstrate how **label-efficient learning paradigm
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
-- ✅ Tomato-only dataset (10 disease classes)
-- ✅ Very low labeled data regime (10%)
-- ✅ Comparison across:
+- Tomato-only dataset (10 disease classes)
+- Very low labeled data regime (10%)
+- Comparison across:
   - Supervised Learning
   - Self-Supervised Learning (SimCLR, BYOL)
   - Semi-Supervised Learning (FixMatch, MixMatch)
-- ✅ Clean experimental setup with fair comparisons
-- ✅ GPU-aware design (no large-scale label percentage sweeps)
+- Clean experimental setup with fair comparisons
+- GPU-aware design (no large-scale label percentage sweeps)
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ├── self_supervised_comparison.ipynb
 ├── semi_supervised_comparison.ipynb
 ├── README.md
