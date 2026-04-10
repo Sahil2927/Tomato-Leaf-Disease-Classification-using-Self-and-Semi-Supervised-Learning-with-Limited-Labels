@@ -134,7 +134,7 @@ RESULTS COMPARISON (all at 10% labeled data)
   BYOL + Fine-tune             | Self-Supervised   | ~74-75%
   FixMatch                     | Semi-Supervised   | ~73.4%
   MixMatch                     | Semi-Supervised   | ~79.15%
-  SimCLR + MixMatch (HYBRID)   | SSL + Semi-SSL    | 80.96%  <-- YOU ARE HERE
+  SimCLR + MixMatch (HYBRID)   | SSL + Semi-SSL    | ~80.96% 
 
   The hybrid combines the best of both worlds:
     - SimCLR provides strong visual representations from ALL data
